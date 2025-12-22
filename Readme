@@ -1,0 +1,21 @@
+HTML
+
+Attributes:
+Attributes modify how an HTML element behaves.
+<a></a>  is to link antoher link we use "herf" in between to add the link to actually link the website 
+LIKE THIS: <a href="https://www.youtube.com">link to youtube</a>
+href = modifies which website is opened when   clicking this link
+<p></p> is to add a paragraph of text.     
+
+
+How to use GIT
+
+git init # used to initialize repository
+
+git remote add origin <link of github repository> # used to link github repository with gits local repository
+
+git add <filename> # used to add file for tracking
+
+git commit -m "message here" # used to commit changes for tracking
+
+git push -u origin master # used to push changes to github repository

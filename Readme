@@ -4,10 +4,65 @@ Attributes:
 Attributes modify how an HTML element behaves.
 <a></a>  is to link antoher link we use "herf" in between to add the link to actually link the website 
 LIKE THIS: <a href="https://www.youtube.com">link to youtube</a>
-href = modifies which website is opened when   clicking this link
-<p></p> is to add a paragraph of text.     
+tagret tell whether it opens in noew tab using "_blank": <a href="https://www.youtube.com" target="_blank">link to youtube</a>       "target and herf only work on link "
 
+href = modifies which website is opened when clicking this link
+<p></p> is to add a paragraph of text.      
 
+<p> – Defines a paragraph used to display normal blocks of text on a webpage.
+
+<button> – Creates a clickable button used to trigger actions or user interactions.
+
+<a href=""> – Anchor tag used to create hyperlinks that navigate to another page or resource.
+
+target="_blank" – Opens the linked page in a new browser tab.
+
+<style> – Contains CSS rules that define how HTML elements should look.
+
+.subscribe-button – A CSS class that styles the Subscribe button with color, size, and hover behavior.
+
+.join-button – A CSS class that creates an outlined button style commonly used for secondary actions.
+
+.tweet-button – Styles a rounded social-media-style button with bold text and bright color.
+
+class="" – Assigns a CSS class to an HTML element so it can be styled or targeted easily.
+
+background-color – Sets the background color of an element.
+
+color – Defines the text color inside an element.
+
+border – Controls the outline of an element including thickness, style, and color.
+
+height & width – Set the size of buttons and other elements.
+
+border-radius – Rounds the corners of buttons for a smooth UI look.
+
+cursor: pointer – Changes the mouse cursor to indicate the element is clickable.
+
+font-size – Controls how large the text appears.
+
+font-weight – Makes text bold or normal.
+
+font-family – Specifies the font style used for text rendering.
+
+margin / margin-top / margin-left – Adds spacing outside elements to improve layout.
+
+display: block – Forces an element to start on a new line and take full width.
+
+.p1 – Styles the price text to appear bold and green indicating availability.
+
+.p2 – Styles secondary information text like delivery details.
+
+.add-to-cart-button – Styles the Add to Cart button to look like an e-commerce action button.
+
+.buy-now-button – Styles the Buy Now button to highlight immediate purchase action.
+
+⚠️ Important note (README-worthy wisdom):
+A <button> cannot contain an <a> tag—use either:
+
+an <a> styled like a button, or
+
+a <button> with JavaScript navigation.
 How to use GIT
 
 git init # used to initialize repository

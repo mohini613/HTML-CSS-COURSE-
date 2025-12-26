@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Backend Friendly HTML Demo</title>
+
+    <!-- CSS handles appearance only -->
+    <style>
+        /* Flexbox container */
+        .container {
+            display: flex;              /* activate flexbox */
+            justify-content: center;    /* center horizontally */
+            align-items: center;        /* center vertically */
+            height: 100vh;              /* full screen height */
+            background-color: #f4f4f4;
+        }
+
+        /* Card-style box */
+        .card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            width: 300px;
+        }
+
+        /* Input fields */
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+        }
+
+        /* Button styling */
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Semantic header: top part of page -->
+    <header>
+        <h1 style="text-align:center;">Login Page</h1>
+    </header>
+
+    <!-- Semantic section: logical content group -->
+    <section class="container">
+
+        <!-- div used as layout container -->
+        <div class="card">
+
+            <!-- Form sends data to backend -->
+            <!-- action = backend URL -->
+            <!-- method = HTTP method -->
+            <form action="/login" method="post">
+
+                <!-- label connects text to input -->
+                <label for="email">Email</label>
+                <!-- name is the KEY sent to backend -->
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+
+                <!-- button triggers form submission -->
+                <button type="submit">LOGIN</button>
+
+            </form>
+
+        </div>
+    </section>
+
+</body>
+</html>
